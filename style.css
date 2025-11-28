@@ -1,0 +1,26 @@
+body {
+    background-color: #39a9cb;
+    font-family: "Dancing Script", cursive;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btn {
+    background-color: #ffada3;
+    border: none;
+    color: #232323;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+#picture {
+    width: 500px;
+    border-radius: 5px;
+}
