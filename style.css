@@ -6,6 +6,7 @@ body {
 #container {
     display: flex;
     justify-content: center;
+    gap: 10px;;
 }
 
 .btn {
@@ -14,15 +15,12 @@ body {
     color: #232323;
     font-family: "Dancing Script", cursive;
     font-size: 30px;
-    margin-left: 5px;
-    margin-right: 5px;
     border-radius: 5px;
 }
 
-
+/*
 #picture {
     display: block;
-    width: 50%;
     height: auto;
     max-height: 90vh;
     object-fit: contain;
@@ -30,3 +28,26 @@ body {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+
+
+#picture {
+    max-width: 95vh;  
+    width: 100%;
+    height: auto;
+    max-height: 95vh;
+    object-fit: contain;
+    border-radius: 10px;
+    margin: 5px; 
+}
+
+*/
+
+#picture {
+    max-height: 95vh;
+    width: auto;
+    max-width: 60vw; 
+    object-fit: contain;
+    border-radius: 10px;
+}
+
