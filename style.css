@@ -19,7 +19,14 @@ body {
     border-radius: 5px;
 }
 
+
 #picture {
+    display: block;
     width: 50%;
+    height: auto;
+    max-height: 90vh;
+    object-fit: contain;
     border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
