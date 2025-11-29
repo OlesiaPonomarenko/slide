@@ -3,6 +3,7 @@ body {
     background-image: url(./img/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 100vh;
 }
 
 #container {
@@ -20,30 +21,6 @@ body {
     border-radius: 5px;
 }
 
-/*
-#picture {
-    display: block;
-    height: auto;
-    max-height: 90vh;
-    object-fit: contain;
-    border-radius: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-
-
-#picture {
-    max-width: 95vh;  
-    width: 100%;
-    height: auto;
-    max-height: 95vh;
-    object-fit: contain;
-    border-radius: 10px;
-    margin: 5px; 
-}
-
-*/
 
 #picture {
     max-height: 95vh;
