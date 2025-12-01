@@ -30,3 +30,38 @@ body {
     border-radius: 10px;
 }
 
+.containerElP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 95vh;
+    width: 100%;
+    max-width: 60vw;
+    gap: 8px;
+    overflow-y: auto;
+    flex-wrap: wrap;
+}
+
+.divPEl {
+    background-color: #ffada3;
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 20px;
+    width: auto;
+    margin-right: 5px;
+    flex: 0 0 auto;
+    margin: 5px;
+    transition: transform 2s ease, font-size 2s ease, padding 2s ease, background-color 3s ease;
+}
+
+
+.divPEl.selected {
+  transform: scale(1.04); 
+  font-size: 24px;
+  padding: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  z-index: 2;
+  background-color: #F5D3C4;
+}
+
