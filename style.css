@@ -3,7 +3,6 @@ body {
     background-image: url(./img/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 100vh;
 }
 
 #container {
@@ -65,3 +64,25 @@ body {
   background-color: #F5D3C4;
 }
 
+@media all and (max-width: 500px) {
+    #container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .containerElP {
+        flex-wrap: nowrap;
+        max-height: none;
+        overflow: visible;
+    }
+    .divPEl {
+        width: 90%;
+        align-self: center;
+        font-size: 18px;
+        padding: 10px;
+    }
+    #picture {
+        max-width: 90vw;
+        max-height: 75vh;
+        align-self: center;
+    }
+}
