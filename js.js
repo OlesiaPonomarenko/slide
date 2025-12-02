@@ -21,35 +21,6 @@ backBtn.addEventListener('click', ()=> {
     document.querySelector('#picture').src = img[i];
 })
 
-/*
-
-const textEl = document.querySelectorAll('.divPEl');
-
-function removeFocus () {
-    textEl.forEach(el => el.classList.remove('selected'));
-}
-
-textEl.forEach( divPEl => {
-    el.addEventListener('mouseover', () =>{
-    removeFocus();
-    el.classList.add('selected');
-    })
-    removeFocus = () => {
-        divPEl.forEach(divPEl => {
-            divPEl.classList.remove('selected');
-        })
-    }
-})
-
-textEl.forEach( divPEl => {
-    divPEl.addEventListener ('click', () => {
-        removeFocus();
-        divPEl.classList.add('selected');
-    })
-})
-
-*/
-
 
 const textEls = document.querySelectorAll('.divPEl');
 
